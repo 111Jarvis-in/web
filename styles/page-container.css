@@ -1,0 +1,30 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .containt-wrapper {
+    margin: 0px 25px;
+    width: 1000px;
+}
+
+.page-container > .containt-wrapper > #chef {
+    width: 350px;
+    float: left;
+    margin: 23px 40px 20px 0px;
+    border: 1px solid #cea135;
+}
+
+.page-container > .containt-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+@media(max-width: 615px) {
+
+    .page-container > .containt-wrapper > #chef {
+        margin: 25px 0px !important;
+        width: 100% !important;
+    }
+
+}

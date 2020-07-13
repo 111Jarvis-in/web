@@ -1,0 +1,61 @@
+/* footer */
+.footer {
+    margin-top: -4px;
+    height: 400px;
+    font-family: "Ubuntu Condenced" sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #11122b;
+    color: #cbcbcb;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.footer > .footer-phone-hours span {
+    margin: 0px 15px;
+    font-size: 0.8em;
+    color: #cbcbcb;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer > .links-wrapper {
+    margin: 32px 0px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    width: 300px;
+    margin: 32px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 2em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #ceb135;
+}
+
+.footer > .copyright-wrapper {
+    font-size: 0.7em;
+    color: #828282;
+    padding-bottom: 42px;
+}
+
+@media (max-width: 615px) {
+
+    .footer {
+        height: 100%;
+    }
+}
